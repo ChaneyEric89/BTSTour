@@ -20,8 +20,15 @@
 		460103311DB4395A0090DADD /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460103301DB4395A0090DADD /* MenuController.swift */; };
 		460103331DB4455A0090DADD /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460103321DB4455A0090DADD /* EventTableViewController.swift */; };
 		460103351DB445B90090DADD /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460103341DB445B90090DADD /* EventTableViewCell.swift */; };
+		46240D861DB9B4D300B2E1F7 /* AdminEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46240D851DB9B4D300B2E1F7 /* AdminEventCell.swift */; };
+		46240D881DB9BF4B00B2E1F7 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46240D871DB9BF4B00B2E1F7 /* EventViewController.swift */; };
 		46A152211DB4750900CA47C5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A152201DB4750900CA47C5 /* MapKit.framework */; };
-		46A152231DB4754800CA47C5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A152221DB4754800CA47C5 /* MapViewController.swift */; };
+		46A152251DB70C9B00CA47C5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A152241DB70C9B00CA47C5 /* MapViewController.swift */; };
+		46A152271DB72D6E00CA47C5 /* WalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A152261DB72D6E00CA47C5 /* WalkViewController.swift */; };
+		46A152291DB97E4800CA47C5 /* AdminLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A152281DB97E4800CA47C5 /* AdminLogin.swift */; };
+		46A1522B1DB97F7000CA47C5 /* AdminEventTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1522A1DB97F7000CA47C5 /* AdminEventTableView.swift */; };
+		46A1522F1DB97F8F00CA47C5 /* AdminAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1522E1DB97F8F00CA47C5 /* AdminAdd.swift */; };
+		46A152311DB995D900CA47C5 /* WhiteDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A152301DB995D900CA47C5 /* WhiteDatePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +70,15 @@
 		460103301DB4395A0090DADD /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		460103321DB4455A0090DADD /* EventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
 		460103341DB445B90090DADD /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		46240D851DB9B4D300B2E1F7 /* AdminEventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminEventCell.swift; sourceTree = "<group>"; };
+		46240D871DB9BF4B00B2E1F7 /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		46A152201DB4750900CA47C5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		46A152221DB4754800CA47C5 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../../../Downloads/SidebarMenu/SidebarMenu/MapViewController.swift; sourceTree = "<group>"; };
+		46A152241DB70C9B00CA47C5 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		46A152261DB72D6E00CA47C5 /* WalkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkViewController.swift; sourceTree = "<group>"; };
+		46A152281DB97E4800CA47C5 /* AdminLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminLogin.swift; sourceTree = "<group>"; };
+		46A1522A1DB97F7000CA47C5 /* AdminEventTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminEventTableView.swift; sourceTree = "<group>"; };
+		46A1522E1DB97F8F00CA47C5 /* AdminAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminAdd.swift; sourceTree = "<group>"; };
+		46A152301DB995D900CA47C5 /* WhiteDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteDatePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,10 +134,17 @@
 				460103251DB42E140090DADD /* SWRevealViewController */,
 				460102F71DB3E01D0090DADD /* AppDelegate.swift */,
 				460102F91DB3E01D0090DADD /* ViewController.swift */,
+				46A152281DB97E4800CA47C5 /* AdminLogin.swift */,
+				46A1522A1DB97F7000CA47C5 /* AdminEventTableView.swift */,
+				46240D851DB9B4D300B2E1F7 /* AdminEventCell.swift */,
+				46A1522E1DB97F8F00CA47C5 /* AdminAdd.swift */,
+				46A152301DB995D900CA47C5 /* WhiteDatePicker.swift */,
 				460103321DB4455A0090DADD /* EventTableViewController.swift */,
 				460103341DB445B90090DADD /* EventTableViewCell.swift */,
+				46240D871DB9BF4B00B2E1F7 /* EventViewController.swift */,
 				460103301DB4395A0090DADD /* MenuController.swift */,
-				46A152221DB4754800CA47C5 /* MapViewController.swift */,
+				46A152241DB70C9B00CA47C5 /* MapViewController.swift */,
+				46A152261DB72D6E00CA47C5 /* WalkViewController.swift */,
 				460102FB1DB3E01D0090DADD /* Main.storyboard */,
 				460102FE1DB3E01D0090DADD /* Assets.xcassets */,
 				4601032C1DB42FF90090DADD /* Full_Sail_University.png */,
@@ -308,12 +329,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				460103311DB4395A0090DADD /* MenuController.swift in Sources */,
+				46A152271DB72D6E00CA47C5 /* WalkViewController.swift in Sources */,
 				460102FA1DB3E01D0090DADD /* ViewController.swift in Sources */,
 				460103351DB445B90090DADD /* EventTableViewCell.swift in Sources */,
 				460102F81DB3E01D0090DADD /* AppDelegate.swift in Sources */,
 				460103331DB4455A0090DADD /* EventTableViewController.swift in Sources */,
 				4601032B1DB42E8E0090DADD /* SWRevealViewController.m in Sources */,
-				46A152231DB4754800CA47C5 /* MapViewController.swift in Sources */,
+				46A1522F1DB97F8F00CA47C5 /* AdminAdd.swift in Sources */,
+				46A152291DB97E4800CA47C5 /* AdminLogin.swift in Sources */,
+				46240D881DB9BF4B00B2E1F7 /* EventViewController.swift in Sources */,
+				46240D861DB9B4D300B2E1F7 /* AdminEventCell.swift in Sources */,
+				46A152311DB995D900CA47C5 /* WhiteDatePicker.swift in Sources */,
+				46A1522B1DB97F7000CA47C5 /* AdminEventTableView.swift in Sources */,
+				46A152251DB70C9B00CA47C5 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
